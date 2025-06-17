@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            background-image: url('pozadina.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .overlay {
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <nav>
+                <a href="index.html">Početna</a>
+                <a href="o_meni.html">O meni</a>
+                <a href="vjezbe.html">Vježbe</a>
+                <a href="video.html">Video</a>
+            </nav>
+
+            <h1>Video rad</h1>
+            <p>Ovdje možete pogledati moj video rad.</p>
+
+		<section>
+			<h2>Video s YouTube-a</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/qs7E8SFSLuk" 
+			title="YouTube video" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe>
+		</section>
+        </div>
+    </div>
+</body>
+</html>
